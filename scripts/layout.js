@@ -24,7 +24,7 @@ footer.innerHTML = `
                                                 data-id="24e9934" data-element_type="widget"
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
-                                                    <img width="1000" height="180" src="/logo.png"
+                                                    <img width="1000" height="180" src="/images/logo.png"
                                                         class="attachment-full size-full wp-image-884" alt=""
                                                         decoding="async" loading="lazy" />
                                                 </div>

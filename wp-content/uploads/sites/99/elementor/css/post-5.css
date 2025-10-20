@@ -1127,7 +1127,7 @@
   .elementor-element.elementor-element-c78ff7e
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/sunrise.webp");
+  background-image: url("/images/sunrise.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1306,7 +1306,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   .elementor-element.elementor-element-f2b85e6
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/bg-01.png");
+  background-image: url("/images/bg-01.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1543,26 +1543,26 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/la-leona.webp");
+  background-image: url("/images/la-leona.webp");
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 
 .first-img {
-  background-image: url("/rio-celeste.webp") !important;
+  background-image: url("/images/rio-celeste.webp") !important;
   background-position: center center;
   background-size: cover;
 }
 
 .second-img {
-  background-image: url("/adventure-combo.webp") !important;
+  background-image: url("/images/adventure-combo.webp") !important;
   background-position: center center;
   background-size: cover;
 }
 
 .third-img {
-  background-image: url("/atv.webp") !important;
+  background-image: url("/images/atv.webp") !important;
   background-position: center center;
   background-size: cover;
 }
@@ -1754,7 +1754,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/rincon-vieja.webp");
+  background-image: url("/images/rincon-vieja.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1947,7 +1947,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/forest.webp");
+  background-image: url("/images/forest.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
