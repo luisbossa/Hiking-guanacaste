@@ -10171,13 +10171,14 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 .swal2-container.jkit-swal-container.jkit-video-button-popup-container
   .swal2-popup
   .jkit-swal-closeButton {
-  position: fixed;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  padding: unset;
+  width: 44px;
   height: 44px;
-  background: unset;
-  border: unset;
+  position: fixed;
+  border-radius: 999px;
+  margin-right: -10px;
+  transform: translateY(-35%);
+  padding: unset;
+  font-size: 20px;
 }
 
 .swal2-container.jkit-swal-container.jkit-video-button-popup-container
