@@ -2544,6 +2544,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   .elementor-element.elementor-element-4483f61
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
+  height: 800px;
   background-color: #000;
   overflow: hidden;
 }

@@ -4611,3 +4611,19 @@
         font-size: var( --e-global-typography-text-font-size);
     }
 }
+
+
+.hero-slider {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.slider-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.8s ease-in-out;
+}
