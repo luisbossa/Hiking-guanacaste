@@ -32,11 +32,18 @@
     rgba(255, 255, 255, 0) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#80000000", endColorstr="#00ffffff", GradientType=0);
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5 .elementor-element.elementor-element-5aca3e2 {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin-top: -172px;
   margin-bottom: 0px;
   padding: 8px 15px;
@@ -178,7 +185,11 @@
 .elementor-5
   .elementor-element.elementor-element-13a51e6
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin: 0px 15px 0px 0px;
   --e-column-margin-right: 15px;
   --e-column-margin-left: 0px;
@@ -188,7 +199,10 @@
   .elementor-element.elementor-element-13a51e6
   > .elementor-element-populated
   > .elementor-background-overlay {
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5
@@ -362,7 +376,11 @@
 .elementor-5
   .elementor-element.elementor-element-6812051
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin: 0px 0px 0px 15px;
   --e-column-margin-right: 0px;
   --e-column-margin-left: 15px;
@@ -372,7 +390,10 @@
   .elementor-element.elementor-element-6812051
   > .elementor-element-populated
   > .elementor-background-overlay {
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5
@@ -1139,11 +1160,18 @@
   background-color: transparent;
   background-image: linear-gradient(180deg, #ffffff 14%, #ffffff21 90%);
   opacity: 1;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5 .elementor-element.elementor-element-c78ff7e {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 250px 0px 200px 0px;
@@ -1318,11 +1346,18 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   background-color: transparent;
   background-image: linear-gradient(180deg, #fffffffa 10%, #ffffff 90%);
   opacity: 1;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5 .elementor-element.elementor-element-f2b85e6 {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   padding: 120px 0px 120px 0px;
 }
 
@@ -1570,7 +1605,11 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 .elementor-5
   .elementor-element.elementor-element-606f1cb
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin: 0px 20px 0px 0px;
   --e-column-margin-right: 20px;
   --e-column-margin-left: 0px;
@@ -1580,7 +1619,10 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   .elementor-element.elementor-element-606f1cb
   > .elementor-element-populated
   > .elementor-background-overlay {
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5
@@ -1763,7 +1805,11 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 .elementor-5
   .elementor-element.elementor-element-a911043
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin: 0px 10px 0px 10px;
   --e-column-margin-right: 10px;
   --e-column-margin-left: 10px;
@@ -1773,7 +1819,10 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   .elementor-element.elementor-element-a911043
   > .elementor-element-populated
   > .elementor-background-overlay {
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5
@@ -1956,7 +2005,11 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 .elementor-5
   .elementor-element.elementor-element-d668be3
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   margin: 0px 0px 0px 20px;
   --e-column-margin-right: 0px;
   --e-column-margin-left: 20px;
@@ -1966,7 +2019,10 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   .elementor-element.elementor-element-d668be3
   > .elementor-element-populated
   > .elementor-background-overlay {
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5
@@ -2170,7 +2226,11 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 }
 
 .elementor-5 .elementor-element.elementor-element-7f25afc {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   padding: 120px 0px 120px 0px;
   position: relative;
 }
@@ -2554,12 +2614,19 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-background-overlay {
   background-color: #1f1f1f;
   opacity: 0.3;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-5 .elementor-element.elementor-element-4483f61 {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 150px 0px 150px 0px;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
+  padding: 12rem 0px 150px 0px;
 }
 
 .elementor-5 .elementor-element.elementor-element-563a0c8 {
@@ -4474,24 +4541,28 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   left: 0;
 }
 
-.filler-up img {
+.filler-up {
+  position: absolute;
+  left: 0;
+  bottom: -3rem;
   width: 100%;
   height: 100px;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  left: 0;
-  bottom: -2.7rem;
   z-index: 20;
+  background-image: url("/images/trans_filler_reverse.svg");
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: 300px 100px;
 }
 
-.filler-down img {
+.filler-down {
+  position: absolute;
+  top: -3rem;
+  left: 0;
   width: 100%;
   height: 100px;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: -2.7rem;
-  left: 0;
   z-index: 20;
+  background-image: url("/images/trans_filler.svg");
+  background-repeat: repeat-x;
+  background-position: top right;
+  background-size: 300px 100px;
 }
