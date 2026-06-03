@@ -264,7 +264,7 @@ footer.innerHTML = `
                                                 data-id="f20c285" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    Copyright © 2025. All rights reserved. </div>
+                                                    Copyright © 2026. All rights reserved. </div>
                                             </div>
                                         </div>
                                     </div>
