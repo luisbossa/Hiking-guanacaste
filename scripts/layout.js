@@ -33,7 +33,7 @@ header.innerHTML = `
                                     <button class="jkit-hamburger-menu">
                                         <i aria-hidden="true" class="fas fa-bars"></i>
                                     </button>
-                                    <div class="jkit-menu-wrapper">
+                                    <div class="jkit-menu-wrapper active">
                                         <div class="jkit-menu-container">
                                             <ul id="menu-menu-1"
                                                 class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">

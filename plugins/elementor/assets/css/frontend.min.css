@@ -562,13 +562,12 @@
   left: 0;
   position: absolute;
   overflow: hidden;
-  z-index: 0;
   direction: ltr;
 }
 
 .elementor .elementor-background-video-container {
   transition: opacity 1s;
-  pointer-events: none;
+  z-index: -1;
 }
 
 .elementor .elementor-background-video-container.elementor-loading {

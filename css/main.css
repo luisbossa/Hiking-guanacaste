@@ -254,7 +254,7 @@
 }
 
 .jeg-elementor-kit.jkit-animated-text .animated-text .normal-text {
-  z-index: 1;
+  
   position: relative;
   vertical-align: bottom;
   font-size: 43px;
@@ -347,7 +347,7 @@
   position: relative;
   top: 0;
   left: 0;
-  z-index: 1;
+  
   font-size: 43px;
   font-weight: 500;
   line-height: 1.2;
@@ -624,8 +624,6 @@
   .dynamic-wrapper {
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
-  -webkit-perspective: 300px;
-  perspective: 300px;
   overflow: hidden;
 }
 
@@ -1023,7 +1021,7 @@
 
 .jeg-elementor-kit.jkit-client-logo .client-list {
   position: relative;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-client-logo .client-track .image-list {
@@ -1253,7 +1251,6 @@
 
 .jeg-elementor-kit.jkit-countdown {
   position: relative;
-  z-index: 10;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1267,7 +1264,7 @@
   .timer-inner-container::after {
   position: absolute;
   left: 100%;
-  z-index: 1;
+  
   color: var(--jkit-form-txt-color);
   font-size: 45px;
 }
@@ -1374,7 +1371,7 @@
   color: var(--jkit-txt-alt-color);
   width: 100%;
   padding: 20px;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-dual-button
@@ -1418,7 +1415,6 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 14px;
-  z-index: 5;
 }
 
 .jeg-elementor-kit.jkit-feature-list .feature-list-items {
@@ -1535,7 +1531,7 @@
   position: absolute;
   width: 0;
   margin: 0 auto;
-  z-index: 1;
+  
   height: 100%;
   top: calc(var(--icon-size, 70px) / 2 + var(--space-between, calc(15px / 2)));
   font-size: 60px;
@@ -1589,7 +1585,7 @@
   .feature-list-items.connector-type-modern
   .feature-list-item:before {
   top: 0;
-  z-index: 1;
+  
   border-right: none !important;
   height: 100%;
 }
@@ -1695,7 +1691,7 @@
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background-size: 101% 101%;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-fun-fact .fun-fact-inner {
@@ -1814,7 +1810,6 @@
   height: 100%;
   width: 100%;
   padding: 15px;
-  z-index: 10;
 }
 
 .jeg-elementor-kit.jkit-gallery .search-filters-wrap {
@@ -1873,7 +1868,6 @@
   position: absolute;
   left: 0;
   background: #fff;
-  z-index: 999;
   width: 150px;
   visibility: hidden;
   opacity: 0;
@@ -2107,7 +2101,6 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 15;
 }
 
 .jeg-elementor-kit.jkit-gallery
@@ -2271,7 +2264,6 @@
   width: 100%;
   content: "";
   background: var(--jkit-element-darken-bg-color);
-  z-index: -1;
   opacity: 0.7;
 }
 
@@ -2292,7 +2284,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 15px;
-  z-index: 3;
   color: var(--jkit-bg-color);
   font-size: 18px;
   font-weight: 700;
@@ -2345,7 +2336,6 @@
   height: 100%;
   width: 100%;
   padding: 15px;
-  z-index: 10;
 }
 
 .jeg-elementor-kit.jkit-gallery
@@ -2630,7 +2620,6 @@
 }
 
 .jeg-elementor-kit.jkit-heading .shadow-text {
-  z-index: 0;
   font-size: 90px;
   position: absolute;
   font-weight: 700;
@@ -2645,7 +2634,6 @@
 }
 
 .jeg-elementor-kit.jkit-heading .shadow-text ~ * {
-  z-index: 1;
   position: relative;
 }
 
@@ -2927,7 +2915,7 @@
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-icon-box .hover-watermark i {
@@ -3256,7 +3244,7 @@
   color: var(--jkit-txt-alt-color);
   width: 100%;
   position: relative;
-  z-index: 1;
+  
   font-size: 16px;
   border-style: solid;
   border-width: 0;
@@ -4953,7 +4941,6 @@
 
 .jeg-elementor-kit .border-bottom {
   position: absolute;
-  z-index: 3;
   left: -101%;
   bottom: 0;
   height: 5px;
@@ -5056,7 +5043,6 @@
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: none;
-  z-index: 99;
 }
 
 .jkit-preloader-overlay .jkit-preloader-type {
@@ -5122,10 +5108,6 @@
   fill: var(--jkit-txt-color);
 }
 
-.jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper {
-  z-index: 1000;
-}
-
 .jeg-elementor-kit.jkit-nav-menu
   .jkit-menu-wrapper
   .jkit-nav-identity-panel
@@ -5188,7 +5170,6 @@
   width: 45px;
   border-radius: 3px;
   position: relative;
-  z-index: 10;
 }
 
 .jeg-elementor-kit.jkit-nav-menu
@@ -5306,7 +5287,6 @@
   transition: all 0.4s ease;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
   top: 100%;
 }
 
@@ -5324,36 +5304,6 @@
   .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-hamburger-menu {
     display: block;
   }
-  .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper {
-    width: 100%;
-    max-width: 360px;
-    border-radius: 0;
-    background-color: #f7f7f7;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: -110%;
-    height: 100% !important;
-    -webkit-box-shadow: 0 10px 30px 0 rgba(255, 165, 0, 0);
-    box-shadow: 0 10px 30px 0 rgba(255, 165, 0, 0);
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-transition: left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53), width 0.6s;
-    transition: left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53), width 0.6s;
-  }
   .jeg-elementor-kit.jkit-nav-menu.break-point-tablet
     .jkit-menu-wrapper.active {
     left: 0;
@@ -5369,7 +5319,6 @@
     padding: 10px 0 10px 0;
     display: block;
     position: relative;
-    z-index: 5;
     width: 100%;
   }
   .jeg-elementor-kit.jkit-nav-menu.break-point-tablet
@@ -5536,7 +5485,6 @@
     padding: 10px 0 10px 0;
     display: block;
     position: relative;
-    z-index: 5;
     width: 100%;
   }
   .jeg-elementor-kit.jkit-nav-menu.break-point-mobile
@@ -5668,7 +5616,6 @@
 
 .jeg-elementor-kit.jkit-off-canvas .sidebar-widget {
   position: fixed;
-  z-index: 999999;
   overflow: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -5764,7 +5711,6 @@
 
 .jeg-elementor-kit.jkit-off-canvas .offcanvas-sidebar .bg-overlay {
   position: fixed;
-  z-index: 1002;
   height: 100%;
   opacity: 0;
   width: 100%;
@@ -5870,7 +5816,6 @@
   .widget-container
   .widget-heading {
   position: absolute;
-  z-index: 20;
 }
 
 .admin-bar
@@ -5905,7 +5850,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-pie-chart .pie-chart-wrapper {
@@ -5924,7 +5869,6 @@
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
-  z-index: 3;
 }
 
 .jeg-elementor-kit.jkit-pie-chart .pie-chart-content svg {
@@ -6037,7 +5981,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 1;
+  
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -6070,7 +6014,6 @@
   width: 100%;
   height: 0;
   background: #fff;
-  z-index: -1;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -6129,7 +6072,6 @@
 .jeg-elementor-kit.jkit-postblock .jkit-edit-post {
   position: absolute;
   top: 0;
-  z-index: 5;
   color: var(--jkit-txt-alt-color, #fff);
   padding: 4px 10px;
   font-size: 12px;
@@ -6280,7 +6222,6 @@
   display: block;
   position: relative;
   overflow: hidden;
-  z-index: 0;
   background: var(--jkit-border-color, #eaeaeb);
   background-position: 50%;
   background-size: cover;
@@ -6297,7 +6238,6 @@
   -o-object-fit: cover;
   object-fit: cover;
   color: var(--jkit-txt-alt-color, #fafcff);
-  z-index: -1;
 }
 
 .jeg-elementor-kit.jkit-postblock .jkit-thumb .thumbnail-container:before {
@@ -6309,7 +6249,7 @@
   right: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  
   background-color: transparent;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -6406,7 +6346,7 @@
 .jeg-elementor-kit.jkit-postblock.postblock-type-4 .jkit-post-title {
   margin-right: -120px;
   position: relative;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-postblock.postblock-type-4 .jkit-post-title a {
@@ -6707,7 +6647,7 @@
   .jkit-product-block
   .jkit-product-image-block
   .onsale {
-  z-index: 1;
+  
   font-size: 10px;
   font-weight: 500;
   color: #fff;
@@ -7553,7 +7493,7 @@
   position: absolute;
   right: 0;
   top: -33px;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-progress-bar
@@ -7574,7 +7514,7 @@
   .progress-skill-bar
   .skill-bar-content {
   position: absolute;
-  z-index: 1;
+  
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -7750,7 +7690,7 @@
   text-align: center;
   font-size: 13px;
   color: #fff;
-  z-index: 1;
+  
   right: -20px;
   top: -31px;
 }
@@ -7782,7 +7722,6 @@
   width: 14px;
   height: 14px;
   background-color: var(--jkit-txt-color);
-  z-index: -1;
 }
 
 .jeg-elementor-kit.jkit-progress-bar
@@ -7935,7 +7874,7 @@
   text-align: center;
   padding: 0 8px;
   top: -10px;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-progress-bar
@@ -8184,7 +8123,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav {
@@ -8245,17 +8184,17 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav > img,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav > svg {
   grid-area: tab-icon;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-title {
   grid-area: tab-title;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-content {
   grid-area: tab-content;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-description {
@@ -8304,7 +8243,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: 1;
+  
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -8509,7 +8448,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: -1;
   background-size: 101% 102%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -8539,7 +8477,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: -1;
   background-size: 101% 102%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -8626,7 +8563,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: 1;
+  
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   opacity: 0;
@@ -8695,7 +8632,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   transition: all 0.4s ease;
   opacity: 0;
   visibility: hidden;
-  z-index: 0;
 }
 
 .jeg-elementor-kit.jkit-team.style-title-horizontal
@@ -8830,7 +8766,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 
 .jeg-elementor-kit.jkit-team .profile-box .profile-card {
   padding: 20px 20px 40px;
-  z-index: 1;
+  
 }
 
 .jeg-elementor-kit.jkit-team .profile-box .profile-card .profile-header {
@@ -8860,7 +8796,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   transition: all 0.4s ease;
   opacity: 0;
   visibility: hidden;
-  z-index: 0;
 }
 
 .jeg-elementor-kit.jkit-team
@@ -8969,7 +8904,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 18px;
   line-height: 1;
   outline: 0;
-  z-index: 1200;
 }
 
 .jeg-elementor-kit.jkit-team .swal2-popup .team-modal-close svg {
@@ -9420,7 +9354,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   bottom: -115px;
   width: 100%;
   text-align: center;
-  z-index: 5;
 }
 
 .jeg-elementor-kit.jkit-testimonials.style-1
@@ -9792,7 +9725,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 40px;
   color: var(--jkit-txt-m-color);
   line-height: 1;
-  z-index: 1;
+  
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -9945,7 +9878,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 40px;
   color: var(--jkit-txt-m-color);
   line-height: 1;
-  z-index: 1;
+  
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -10120,7 +10053,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   -webkit-animation: jkit-ripple 3s infinite;
   animation: jkit-ripple 3s infinite;
   opacity: 0.6;
-  z-index: -1;
 }
 
 .jeg-elementor-kit.jkit-video-button .jkit-video-popup-btn.glow-enable:after {
@@ -10211,3 +10143,5 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   max-width: 100%;
   height: auto;
 }
+
+

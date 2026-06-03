@@ -2629,19 +2629,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   height: 800px;
-  background-color: #000;
-  overflow: hidden;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-4483f61
-  > .elementor-background-overlay {
-  background-color: #1f1f1f;
-  opacity: 0.3;
-  transition:
-    background 0.3s,
-    border-radius 0.3s,
-    opacity 0.3s;
 }
 
 .elementor-5 .elementor-element.elementor-element-4483f61 {
@@ -4600,3 +4587,5 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   background-position: top right;
   background-size: 300px 100px;
 }
+
+
