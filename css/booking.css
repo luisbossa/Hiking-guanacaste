@@ -155,7 +155,7 @@ h1.entry-title {
 }
 
 .elementor-1199 .elementor-element.elementor-element-5ac4092 {
-  background-image: url("/images/laLeona-bg.jpg");
+  background-image: url("/images/laLeona-bg.png");
   background-position: center right;
   background-size: cover;
 }
@@ -2556,130 +2556,6 @@ body:not(.rtl)
 .custom-list li p {
   margin: 0;
   color: #505050;
-}
-
-/* ------ NAVBAR -------*/
-
-.navbar-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: transparent;
-  position: relative;
-  z-index: 100;
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 12px;
-}
-
-.nav-item .nav-link {
-  color: white;
-  font-family: "Inter", Sans-serif;
-  text-decoration: none;
-  padding: 0 20px;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
-}
-
-.nav-item .nav-link:hover {
-  color: #8dc63e;
-}
-
-.navbar-container img {
-  width: 90px;
-}
-
-/* Hamburger Menu */
-.jkit-hamburger-menu {
-  background-color: #8dc63e !important;
-  border: none;
-  padding: 4px 10px;
-  border-radius: 50px;
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
-  display: none;
-}
-
-/* Sidebar (Off-canvas menu) */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: -360px;
-  width: 360px;
-  height: 100%;
-  background-color: #1f1f1f;
-  color: white;
-  border-right: 1px solid #3b3b3b;
-  transition: left 0.3s ease;
-  padding-top: 60px;
-  z-index: 200;
-}
-
-.sidebar-menu {
-  list-style: none;
-  padding: 0;
-}
-
-.jkit-nav-site-title {
-  margin: 0 0 2rem 1rem;
-}
-
-.sidebar-menu .nav-item {
-  margin: 10px 0;
-}
-
-.sidebar-menu .nav-link {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 800;
-  padding: 10px 20px;
-  display: block;
-}
-
-.sidebar-menu .nav-link:hover {
-  background-color: #8dc63e;
-  color: white;
-}
-
-/* Close Button */
-.jkit-close-menu {
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-
-/* Responsive Styles */
-@media (max-width: 1024px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .jkit-hamburger-menu {
-    display: block;
-  }
-}
-
-/* Sidebar toggle open */
-.sidebar.open {
-  left: 0;
 }
 
 .booking_filler img {

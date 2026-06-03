@@ -100,6 +100,31 @@
   border: 0;
   border-radius: 50px;
   padding: 20px 38px 20px 38px;
+  transition: background-color 0.3s ease;
+}
+
+.elementor-5
+  .elementor-element.elementor-element-d1d6d22
+  .elementor-button:hover {
+  background-color: #9fd24d;
+}
+
+.elementor-5
+  .elementor-element.elementor-element-ed8b4d7
+  .elementor-button:hover {
+  background-color: #9fd24d;
+}
+
+.elementor-5
+  .elementor-element.elementor-element-8e9782a
+  .elementor-button:hover {
+  background-color: #9fd24d;
+}
+
+.elementor-5
+  .elementor-element.elementor-element-647ada0
+  .elementor-button:hover {
+  background-color: #9fd24d;
 }
 
 .elementor-5
@@ -2697,6 +2722,13 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   border-color: #ffffff;
   border-radius: 50px;
   padding: 20px 38px 20px 38px;
+  transition: background-color 0.35s ease;
+}
+
+.elementor-5
+  .elementor-element.elementor-element-eee94bc
+  .elementor-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .elementor-5
@@ -4518,17 +4550,22 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 
 .book-btn {
   width: auto;
-  font-size: var(--e-global-typography-c2f6859-font-size);
-  line-height: var(--e-global-typography-c2f6859-line-height);
-  letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
-  word-spacing: var(--e-global-typography-c2f6859-word-spacing);
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 600;
   border-radius: 50px;
   padding: 10px 20px;
+  text-transform: uppercase;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.35s ease;
   cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .hero_filler img {
@@ -4566,5 +4603,3 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   background-position: top right;
   background-size: 300px 100px;
 }
-
-

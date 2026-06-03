@@ -10179,6 +10179,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   transform: translateY(-35%);
   padding: unset;
   font-size: 20px;
+  background-color: #8dc63e;
 }
 
 .swal2-container.jkit-swal-container.jkit-video-button-popup-container
