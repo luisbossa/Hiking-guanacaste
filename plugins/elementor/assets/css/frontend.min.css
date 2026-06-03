@@ -669,11 +669,6 @@
   align-self: var(--align-self);
 }
 
-.elementor-element.elementor-absolute,
-.elementor-element.elementor-fixed {
-  z-index: 1;
-}
-
 .elementor-element:where(.e-con-full, .elementor-widget) {
   flex-direction: var(--flex-direction);
   flex-wrap: var(--flex-wrap);
@@ -2296,15 +2291,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   }
 }
 
-:is(.e-con, .e-con > .e-con-inner)
-  > .elementor-background-video-container:before {
-  z-index: 1;
-}
-
-:is(.e-con, .e-con > .e-con-inner) > .elementor-background-slideshow:before {
-  z-index: 2;
-}
-
 .e-con .elementor-widget {
   min-width: 0;
 }
@@ -3028,7 +3014,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 .elementor-lightbox .swiper ~ .elementor-swiper-button {
   position: absolute;
   display: inline-flex;
-  z-index: 1;
   cursor: pointer;
   font-size: 25px;
   color: hsla(0, 0%, 93.3%, 0.9);
@@ -7504,7 +7489,6 @@ body.elementor-page .elementor-widget-menu-anchor {
   --e-rating-icon-color: var(--e-rating-icon-marked-color);
   width: var(--e-rating-icon-marked-width);
   position: absolute;
-  z-index: 1;
   height: 100%;
   left: 0;
   top: 0;

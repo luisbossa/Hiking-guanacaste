@@ -638,7 +638,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 1
 }
 
 .wp-block-cover-image.has-background-dim.has-background-dim-10 .wp-block-cover__background,
@@ -844,7 +843,6 @@
 .wp-block-cover-image .wp-block-cover__inner-container {
     color: inherit;
     width: 100%;
-    z-index: 1
 }
 
 .wp-block-cover h1:not(.has-text-color),
@@ -995,11 +993,6 @@ video.wp-block-cover__video-background.is-repeated {
     background-size: auto
 }
 
-.wp-block-cover__image-background,
-.wp-block-cover__video-background {
-    z-index: 0
-}
-
 .wp-block-cover-image-text,
 .wp-block-cover-image-text a,
 .wp-block-cover-image-text a:active,
@@ -1049,7 +1042,6 @@ section.wp-block-cover-image>h2 {
     max-width: 840px;
     padding: .44em;
     text-align: center;
-    z-index: 1
 }
 
 :where(.wp-block-cover-image:not(.has-text-color)),
@@ -1262,7 +1254,6 @@ section.wp-block-cover-image>h2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    z-index: 2
 }
 
 .blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figcaption img,
@@ -1744,7 +1735,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     top: 16px;
     transition: opacity .2s ease;
     width: 20px;
-    z-index: 100
 }
 
 .wp-lightbox-container button:focus-visible {
@@ -1779,7 +1769,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     top: 0;
     visibility: hidden;
     width: 100vw;
-    z-index: 100000
 }
 
 .wp-lightbox-overlay .close-button {
@@ -1793,7 +1782,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     position: absolute;
     right: calc(env(safe-area-inset-right) + 16px);
     top: calc(env(safe-area-inset-top) + 16px);
-    z-index: 5000000
 }
 
 .wp-lightbox-overlay .close-button:focus,
@@ -1812,7 +1800,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     transform: translate(-50%, -50%);
     transform-origin: top left;
     width: var(--wp--lightbox-container-width);
-    z-index: 9999999999
 }
 
 .wp-lightbox-overlay .wp-block-image {
@@ -1825,7 +1812,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     position: relative;
     transform-origin: 0 0;
     width: 100%;
-    z-index: 3000000
 }
 
 .wp-lightbox-overlay .wp-block-image img {
@@ -1850,7 +1836,6 @@ h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
     opacity: .9;
     position: absolute;
     width: 100%;
-    z-index: 2000000
 }
 
 .wp-lightbox-overlay.active {
@@ -2357,7 +2342,6 @@ ul.has-background {
     transition: opacity .1s linear;
     visibility: hidden;
     width: 0;
-    z-index: 2
 }
 
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
@@ -2595,7 +2579,6 @@ button.wp-block-navigation-item__content {
     flex-direction: column;
     overflow: auto;
     padding: clamp(1rem, var(--wp--style--root--padding-top), 20rem) clamp(1rem, var(--wp--style--root--padding-right), 20rem) clamp(1rem, var(--wp--style--root--padding-bottom), 20rem) clamp(1rem, var(--wp--style--root--padding-left), 20em);
-    z-index: 100000
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -2677,7 +2660,6 @@ button.wp-block-navigation-item__content {
         display: block;
         position: relative;
         width: 100%;
-        z-index: auto
     }
     .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close {
         display: none
@@ -2741,7 +2723,6 @@ button.wp-block-navigation-item__content {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 2
 }
 
 .wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close {
@@ -4499,7 +4480,6 @@ a[data-fn].fn:after {
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000
 }
 
 html :where(.has-border-color) {

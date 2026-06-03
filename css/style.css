@@ -125,7 +125,6 @@ h1.entry-title {
   --row-gap: 0px;
   --column-gap: 0px;
   --overlay-opacity: 0.56;
-  --z-index: 8;
 }
 
 .elementor-1199
@@ -683,7 +682,6 @@ h1.entry-title {
   --margin-bottom: 0px;
   --margin-left: 0px;
   --margin-right: 0px;
-  --z-index: 9;
 }
 
 .elementor-1199
@@ -1838,7 +1836,6 @@ body:not(.rtl)
   --margin-bottom: -144px;
   --margin-left: 0px;
   --margin-right: 0px;
-  --z-index: 9;
 }
 
 .elementor-223 .elementor-element.elementor-element-b9178fd {

@@ -122,7 +122,6 @@
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000
 }
 
 .site-header {
@@ -630,7 +629,6 @@ body.rtl #comments ol.comment-list .children:before {
     display: none;
     min-width: 150px;
     position: absolute;
-    z-index: 2;
     left: 0;
     top: 100%
 }
@@ -690,7 +688,6 @@ footer .site-navigation ul.menu a {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 10000;
     width: 100%
 }
 
