@@ -1602,14 +1602,14 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/images/la-leona.webp");
+  background-image: url("/images/laleona/la-leona.webp");
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 
 .first-img {
-  background-image: url("/images/rio-celeste.webp") !important;
+  background-image: url("/images/rioCeleste/rio-celeste.jpg") !important;
   background-position: center center;
   background-size: cover;
 }
