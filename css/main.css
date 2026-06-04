@@ -184,7 +184,6 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  
 }
 
 .jeg-elementor-kit.jkit-accordion.style-box
@@ -254,7 +253,6 @@
 }
 
 .jeg-elementor-kit.jkit-animated-text .animated-text .normal-text {
-  
   position: relative;
   vertical-align: bottom;
   font-size: 43px;
@@ -347,7 +345,7 @@
   position: relative;
   top: 0;
   left: 0;
-  
+
   font-size: 43px;
   font-weight: 500;
   line-height: 1.2;
@@ -988,7 +986,6 @@
   .category-list-item
   a
   .jkit-categorylist-content {
-  
   display: block;
   margin-bottom: 0;
 }
@@ -1021,7 +1018,6 @@
 
 .jeg-elementor-kit.jkit-client-logo .client-list {
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-client-logo .client-track .image-list {
@@ -1150,7 +1146,6 @@
   top: 50%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  
 }
 
 .jeg-elementor-kit.jkit-client-logo.arrow-middle-edge
@@ -1264,7 +1259,7 @@
   .timer-inner-container::after {
   position: absolute;
   left: 100%;
-  
+
   color: var(--jkit-form-txt-color);
   font-size: 45px;
 }
@@ -1371,7 +1366,6 @@
   color: var(--jkit-txt-alt-color);
   width: 100%;
   padding: 20px;
-  
 }
 
 .jeg-elementor-kit.jkit-dual-button
@@ -1431,7 +1425,6 @@
   .feature-list-items
   .feature-list-item
   .feature-list-icon-box {
-  
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -1531,7 +1524,7 @@
   position: absolute;
   width: 0;
   margin: 0 auto;
-  
+
   height: 100%;
   top: calc(var(--icon-size, 70px) / 2 + var(--space-between, calc(15px / 2)));
   font-size: 60px;
@@ -1585,7 +1578,7 @@
   .feature-list-items.connector-type-modern
   .feature-list-item:before {
   top: 0;
-  
+
   border-right: none !important;
   height: 100%;
 }
@@ -1595,7 +1588,7 @@
   .feature-list-item:after {
   top: 50%;
   width: 23px;
-  
+
   border-top: none !important;
 }
 
@@ -1675,7 +1668,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: relative;
-  
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1691,7 +1684,6 @@
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background-size: 101% 101%;
-  
 }
 
 .jeg-elementor-kit.jkit-fun-fact .fun-fact-inner {
@@ -1706,7 +1698,6 @@
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-fun-fact .fun-fact-inner > .icon {
@@ -2663,9 +2654,11 @@
   width: 4px;
   border-radius: 50%;
   background-color: var(--jkit-element-darken-bg-color);
-  -webkit-box-shadow: 9px 0 0 0 var(--jkit-element-darken-bg-color),
+  -webkit-box-shadow:
+    9px 0 0 0 var(--jkit-element-darken-bg-color),
     18px 0 0 0 var(--jkit-element-darken-bg-color);
-  box-shadow: 9px 0 0 0 var(--jkit-element-darken-bg-color),
+  box-shadow:
+    9px 0 0 0 var(--jkit-element-darken-bg-color),
     18px 0 0 0 var(--jkit-element-darken-bg-color);
 }
 
@@ -2789,7 +2782,7 @@
 
 .jeg-elementor-kit.jkit-icon-box .icon-box.icon-box-header {
   position: relative;
-  
+
   line-height: 0;
 }
 
@@ -2835,7 +2828,6 @@
   .icon-box-button
   .btn-wrapper {
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-icon-box
@@ -2843,24 +2835,13 @@
   .icon-box-button
   .btn-wrapper
   .icon-box-link {
-  border-radius: 5px;
-  font-size: 15px;
-  padding: 15px 30px;
-  display: inline-block;
-  color: var(--jkit-bg-color);
   position: relative;
   display: inline-block;
-  line-height: 1;
   white-space: nowrap;
   vertical-align: middle;
   text-align: center;
-  background-color: var(--jkit-btn-bg-color);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  color: #fff;
+  transition: color 0.3s ease;
 }
 
 .jeg-elementor-kit.jkit-icon-box
@@ -2868,7 +2849,7 @@
   .icon-box-button
   .btn-wrapper
   .icon-box-link:hover {
-  background-color: var(--jkit-btn-bg-hover-color);
+  color: #8dc63e;
 }
 
 .jeg-elementor-kit.jkit-icon-box
@@ -2915,7 +2896,6 @@
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  
 }
 
 .jeg-elementor-kit.jkit-icon-box .hover-watermark i {
@@ -2931,7 +2911,6 @@
 .jeg-elementor-kit.jkit-icon-box .icon-box-badge {
   position: absolute;
   line-height: 1;
-  
 }
 
 .jeg-elementor-kit.jkit-icon-box .icon-box-badge.topleft {
@@ -3228,14 +3207,21 @@
   background-clip: padding-box;
   border: 1px solid var(--jkit-form-border-color);
   border-radius: 0 5px 5px 0;
-  -webkit-transition: border-color 0.15s ease-in-out,
+  -webkit-transition:
+    border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
-  -webkit-transition: border-color 0.15s ease-in-out,
+  -webkit-transition:
+    border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out,
+  transition:
+    border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
 }
 
@@ -3244,7 +3230,7 @@
   color: var(--jkit-txt-alt-color);
   width: 100%;
   position: relative;
-  
+
   font-size: 16px;
   border-style: solid;
   border-width: 0;
@@ -5467,8 +5453,12 @@
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    -webkit-transition: left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53), width 0.6s;
-    transition: left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53), width 0.6s;
+    -webkit-transition:
+      left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53),
+      width 0.6s;
+    transition:
+      left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53),
+      width 0.6s;
   }
   .jeg-elementor-kit.jkit-nav-menu.break-point-mobile
     .jkit-menu-wrapper.active {
@@ -5843,14 +5833,12 @@
 .jeg-elementor-kit.jkit-pie-chart canvas {
   display: inline-block;
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-pie-chart canvas.background-canvas {
   position: absolute;
   top: 0;
   left: 0;
-  
 }
 
 .jeg-elementor-kit.jkit-pie-chart .pie-chart-wrapper {
@@ -5954,7 +5942,7 @@
   height: 90vh;
   padding: 0;
   position: relative;
-  
+
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -5981,14 +5969,14 @@
   left: 0;
   height: 100%;
   width: 100%;
-  
+
   background: rgba(0, 0, 0, 0.1);
 }
 
 .jeg-elementor-kit.jkit-portfolio-gallery .row-item-info {
   padding: 40px 10px 40px 20px;
   position: relative;
-  
+
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   overflow: hidden;
@@ -6033,7 +6021,6 @@
   transform: translateY(20%);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  
 }
 
 .jeg-elementor-kit.jkit-portfolio-gallery .row-item-more a {
@@ -6249,7 +6236,7 @@
   right: 0;
   width: 100%;
   height: 100%;
-  
+
   background-color: transparent;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -6346,7 +6333,6 @@
 .jeg-elementor-kit.jkit-postblock.postblock-type-4 .jkit-post-title {
   margin-right: -120px;
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-postblock.postblock-type-4 .jkit-post-title a {
@@ -6496,7 +6482,6 @@
 }
 
 .jeg-elementor-kit.jkit-postlist article a img {
-  
   position: relative;
   line-height: 0;
 }
@@ -6506,7 +6491,6 @@
 }
 
 .jeg-elementor-kit.jkit-postlist article a .jkit-postlist-content {
-  
   width: 100%;
 }
 
@@ -6647,7 +6631,6 @@
   .jkit-product-block
   .jkit-product-image-block
   .onsale {
-  
   font-size: 10px;
   font-weight: 500;
   color: #fff;
@@ -6954,7 +6937,6 @@
   top: 50%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  
 }
 
 .jeg-elementor-kit.jkit-product-carousel.arrow-middle-edge
@@ -7493,7 +7475,6 @@
   position: absolute;
   right: 0;
   top: -33px;
-  
 }
 
 .jeg-elementor-kit.jkit-progress-bar
@@ -7514,7 +7495,7 @@
   .progress-skill-bar
   .skill-bar-content {
   position: absolute;
-  
+
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -7690,7 +7671,7 @@
   text-align: center;
   font-size: 13px;
   color: #fff;
-  
+
   right: -20px;
   top: -31px;
 }
@@ -7842,11 +7823,14 @@
   top: -12.5px;
   width: 25px;
   height: 25px;
-  -webkit-box-shadow: -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
+  -webkit-box-shadow:
+    -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
     inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-  -o-box-shadow: -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
+  -o-box-shadow:
+    -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
     inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
+  box-shadow:
+    -1.216px 6.894px 15px 0 rgba(0, 0, 0, 0.07),
     inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   border: 1px solid var(--jkit-txt-color);
@@ -7874,7 +7858,6 @@
   text-align: center;
   padding: 0 8px;
   top: -10px;
-  
 }
 
 .jeg-elementor-kit.jkit-progress-bar
@@ -8123,7 +8106,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav {
@@ -8184,17 +8166,14 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav > img,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav > svg {
   grid-area: tab-icon;
-  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-title {
   grid-area: tab-title;
-  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-content {
   grid-area: tab-content;
-  
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list .tab-nav .tab-description {
@@ -8243,7 +8222,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   left: 0;
   right: 0;
   margin: 0 auto;
-  
+
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -8255,15 +8234,23 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.fade .tab-nav,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.over .tab-nav,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.slide .tab-nav {
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.fade .tab-nav:hover i,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.over .tab-nav:hover i,
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.slide .tab-nav:hover i {
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.slide .tab-nav {
@@ -8312,8 +8299,12 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-nav-list.over.moving .tab-nav-cloned {
-  -webkit-transition: left 0.3s, top 0.3s;
-  transition: left 0.3s, top 0.3s;
+  -webkit-transition:
+    left 0.3s,
+    top 0.3s;
+  transition:
+    left 0.3s,
+    top 0.3s;
 }
 
 .jeg-elementor-kit.jkit-tabs .tab-content-list {
@@ -8456,7 +8447,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 .jeg-elementor-kit.jkit-team.style-default .profile-body,
 .jeg-elementor-kit.jkit-team.style-default .profile-footer {
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-team.style-hover-social .profile-body {
@@ -8529,7 +8519,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 
 .jeg-elementor-kit.jkit-team.style-overlay .profile-card .hover-area {
   position: absolute;
-  
+
   width: 100%;
   opacity: 0;
   visibility: hidden;
@@ -8563,7 +8553,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  
+
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   opacity: 0;
@@ -8766,7 +8756,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
 
 .jeg-elementor-kit.jkit-team .profile-box .profile-card {
   padding: 20px 20px 40px;
-  
 }
 
 .jeg-elementor-kit.jkit-team .profile-box .profile-card .profile-header {
@@ -9038,7 +9027,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   .testimonial-box
   .rating-stars {
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-testimonials .tns-nav {
@@ -9105,7 +9093,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   top: 50%;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  
 }
 
 .jeg-elementor-kit.jkit-testimonials.arrow-middle-edge
@@ -9340,7 +9327,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 15px;
   margin-bottom: 35px;
   position: relative;
-  
 }
 
 .jeg-elementor-kit.jkit-testimonials.style-1
@@ -9657,7 +9643,6 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
 .jeg-elementor-kit.jkit-testimonials.style-2
@@ -9725,7 +9710,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 40px;
   color: var(--jkit-txt-m-color);
   line-height: 1;
-  
+
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -9878,7 +9863,7 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   font-size: 40px;
   color: var(--jkit-txt-m-color);
   line-height: 1;
-  
+
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -10143,5 +10128,3 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   max-width: 100%;
   height: auto;
 }
-
-

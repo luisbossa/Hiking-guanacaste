@@ -136,14 +136,14 @@
   .elementor-element.elementor-element-294c221
   .jeg-elementor-kit.jkit-video-button
   .jkit-video-popup-btn {
-  padding: 0px 0px 0px 8px;
   height: 80px;
   width: 80px;
   line-height: 93px;
-  background-color: #02010100;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 8px;
   border-color: #ffffff52;
+  border-width: 1px 1px 1px 1px;
+  background-color: #02010100;
 }
 
 .elementor-5
@@ -309,7 +309,6 @@
   line-height: var(--e-global-typography-c2f6859-line-height);
   letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
   word-spacing: var(--e-global-typography-c2f6859-word-spacing);
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -362,14 +361,6 @@
   a.icon-box-link
   svg {
   margin-right: 6px;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-cde742d
-  .jeg-elementor-kit.jkit-icon-box:hover
-  .icon-box-button
-  a.icon-box-link {
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -500,7 +491,6 @@
   line-height: var(--e-global-typography-c2f6859-line-height);
   letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
   word-spacing: var(--e-global-typography-c2f6859-word-spacing);
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -553,14 +543,6 @@
   a.icon-box-link
   svg {
   margin-right: 6px;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-8493af4
-  .jeg-elementor-kit.jkit-icon-box:hover
-  .icon-box-button
-  a.icon-box-link {
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -1602,7 +1584,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/images/laleona/la-leona.webp");
+  background-image: url("/images/laleona/la-leona.avif");
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1615,13 +1597,13 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 }
 
 .second-img {
-  background-image: url("/images/adventure-combo.webp") !important;
+  background-image: url("/images/cdlVieja/canon-vieja.jpeg") !important;
   background-position: center center;
   background-size: cover;
 }
 
 .third-img {
-  background-image: url("/images/atv.webp") !important;
+  background-image: url("/images/atv/atv.jpg") !important;
   background-position: center center;
   background-size: cover;
 }
@@ -1732,7 +1714,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   line-height: var(--e-global-typography-c2f6859-line-height);
   letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
   word-spacing: var(--e-global-typography-c2f6859-word-spacing);
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -1789,28 +1770,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 }
 
 .elementor-5
-  .elementor-element.elementor-element-18cca1f
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link,
-.elementor-5
-  .elementor-element.elementor-element-18cca1f
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link
-  i {
-  color: #ffffff;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-18cca1f
-  .jeg-elementor-kit.jkit-icon-box:hover
-  .icon-box-button
-  a.icon-box-link {
-  background-color: #02010100;
-}
-
-.elementor-5
   .elementor-element.elementor-element-a911043:not(
     .elementor-motion-effects-element-type-background
   )
@@ -1820,7 +1779,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/images/rincon-vieja.webp");
+  background-image: url("/images/rVieja/rincon-vieja.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1932,7 +1891,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   line-height: var(--e-global-typography-c2f6859-line-height);
   letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
   word-spacing: var(--e-global-typography-c2f6859-word-spacing);
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -1989,28 +1947,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
 }
 
 .elementor-5
-  .elementor-element.elementor-element-ed196ef
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link,
-.elementor-5
-  .elementor-element.elementor-element-ed196ef
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link
-  i {
-  color: #ffffff;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-ed196ef
-  .jeg-elementor-kit.jkit-icon-box:hover
-  .icon-box-button
-  a.icon-box-link {
-  background-color: #02010100;
-}
-
-.elementor-5
   .elementor-element.elementor-element-d668be3:not(
     .elementor-motion-effects-element-type-background
   )
@@ -2020,7 +1956,7 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/images/forest.webp");
+  background-image: url("/images/miravalles/miravalles.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2132,7 +2068,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   line-height: var(--e-global-typography-c2f6859-line-height);
   letter-spacing: var(--e-global-typography-c2f6859-letter-spacing);
   word-spacing: var(--e-global-typography-c2f6859-word-spacing);
-  background-color: #02010100;
 }
 
 .elementor-5
@@ -2186,28 +2121,6 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   a.icon-box-link
   svg {
   margin-right: 8px;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-1a7c62e
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link,
-.elementor-5
-  .elementor-element.elementor-element-1a7c62e
-  .jeg-elementor-kit.jkit-icon-box
-  .icon-box-button
-  a.icon-box-link
-  i {
-  color: #ffffff;
-}
-
-.elementor-5
-  .elementor-element.elementor-element-1a7c62e
-  .jeg-elementor-kit.jkit-icon-box:hover
-  .icon-box-button
-  a.icon-box-link {
-  background-color: #02010100;
 }
 
 .elementor-5 .elementor-element.elementor-element-647ada0 .elementor-button {
@@ -4587,5 +4500,3 @@ body.rtl .elementor-5 .elementor-element.elementor-element-a711f9f {
   background-position: top right;
   background-size: 300px 100px;
 }
-
-
