@@ -519,6 +519,7 @@
 .elementor a {
   box-shadow: none;
   text-decoration: none;
+  outline: none;
 }
 
 .elementor hr {
