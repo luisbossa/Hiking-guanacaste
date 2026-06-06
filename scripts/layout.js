@@ -33,7 +33,7 @@ header.innerHTML = `
                                     <button class="jkit-hamburger-menu">
                                         <i aria-hidden="true" class="fas fa-bars"></i>
                                     </button>
-                                    <div class="jkit-menu-wrapper active">
+                                    <div class="jkit-menu-wrapper">
                                         <div class="jkit-menu-container">
                                             <ul id="menu-menu-1"
                                                 class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
@@ -120,6 +120,32 @@ header.innerHTML = `
         </section>
     </div>
 `;
+
+function initMobileMenu() {
+  const hamburger = document.querySelector(".jkit-hamburger-menu");
+  const closeBtn = document.querySelector(".jkit-close-menu");
+  const menu = document.querySelector(".jkit-menu-wrapper");
+  const overlay = document.querySelector(".jkit-overlay");
+
+  if (!hamburger || !menu) return;
+
+  hamburger.addEventListener("click", () => {
+    menu.classList.add("active");
+    overlay?.classList.add("active");
+  });
+
+  closeBtn?.addEventListener("click", () => {
+    menu.classList.remove("active");
+    overlay?.classList.remove("active");
+  });
+
+  overlay?.addEventListener("click", () => {
+    menu.classList.remove("active");
+    overlay?.classList.remove("active");
+  });
+}
+
+initMobileMenu();
 
 footer.innerHTML = `
     <div class='footer-width-fixer'>

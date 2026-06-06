@@ -244,11 +244,6 @@ select {
   padding: 0;
 }
 
-.fine-print {
-  margin: 0;
-  font-size: 14px;
-}
-
 .booking-panel {
   position: sticky;
   top: 10px;
@@ -258,7 +253,6 @@ select {
   border: 1px solid #8dc63e;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   overflow: hidden;
-  z-index: 10;
 }
 
 .carousel {

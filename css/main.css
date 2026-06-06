@@ -5083,6 +5083,7 @@
 }
 
 .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu {
+  font-size: 20px;
   position: relative;
   float: right;
   display: none;
@@ -10127,4 +10128,31 @@ body.admin-bar .jeg-elementor-kit.jkit-search .swal2-close {
   video {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 1024px) {
+  .jkit-menu-wrapper {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 320px;
+    height: 100vh;
+    transition: right 0.3s ease;
+    z-index: 9999;
+  }
+
+  .jkit-menu-wrapper.active {
+    right: 0;
+  }
+
+  .jkit-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+
+  .jkit-overlay.active {
+    display: block;
+  }
 }
