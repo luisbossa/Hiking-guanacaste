@@ -5089,6 +5089,7 @@
   display: none;
   color: #fff;
   border: 0;
+  background-color: transparent;
 }
 
 .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu svg {
@@ -5148,14 +5149,13 @@
   .jkit-menu-wrapper
   .jkit-nav-identity-panel
   .jkit-close-menu {
+  width: 45px;
   float: right;
   display: none;
   color: var(--jkit-txt-color);
-  border: solid 1px var(--jkit-border-color);
   padding: 8px 8px 8px 8px;
   margin: 12px 12px 12px 12px;
-  width: 45px;
-  border-radius: 3px;
+  background-color: transparent;
   position: relative;
 }
 

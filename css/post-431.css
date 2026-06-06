@@ -606,12 +606,6 @@
 @media (max-width: 1024px) {
   .elementor-element.elementor-element-8eac6ca
     .jeg-elementor-kit.jkit-nav-menu
-    .jkit-hamburger-menu {
-    display: block;
-  }
-
-  .elementor-element.elementor-element-8eac6ca
-    .jeg-elementor-kit.jkit-nav-menu
     .jkit-menu-wrapper {
     width: 100%;
     height: 100% !important;
@@ -806,3 +800,5 @@
     top: 46px;
   }
 }
+
+

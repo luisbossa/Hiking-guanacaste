@@ -2114,14 +2114,10 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     --bc-margin-inline-start,
     var(--margin-inline-start)
   );
-  padding-inline-start: var(
-    --bc-padding-inline-start,
-    var(--padding-inline-start)
-  );
-  padding-inline-end: var(--bc-padding-inline-end, var(--padding-inline-end));
   z-index: var(--z-index);
   overflow: var(--overflow);
-  transition: background var(--background-transition, 0.3s),
+  transition:
+    background var(--background-transition, 0.3s),
     border var(--border-transition, 0.3s),
     box-shadow var(--border-transition, 0.3s),
     transform var(--e-con-transform-transition-duration, 0.4s);
@@ -2191,13 +2187,14 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .e-con.e-flex > .e-con-inner {
   flex-wrap: var(--flex-wrap);
-  justify-content: var(--justify-content);
+  justify-content: flex-start;
   align-items: var(--align-items);
   align-content: var(--align-content);
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
   align-self: auto;
+  padding: 0 22px;
 }
 
 .e-con.e-grid > .e-con-inner {
@@ -2258,7 +2255,8 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .e-con:before {
-  transition: background var(--overlay-transition, 0.3s),
+  transition:
+    background var(--overlay-transition, 0.3s),
     border-radius var(--border-transition, 0.3s),
     opacity var(--overlay-transition, 0.3s);
 }
@@ -2761,7 +2759,11 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-element .elementor-widget-container {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s,
     transform var(--e-transform-transition-duration, 0.4s);
 }
 
@@ -3410,7 +3412,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-lightbox .elementor-lightbox-image {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3), 0 0 8px -5px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0 0 30px rgba(0, 0, 0, 0.3),
+    0 0 8px -5px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
 }
 
@@ -4247,7 +4251,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   fill: var(--path-fill, transparent);
   stroke: var(--stroke-color, transparent);
   stroke-width: var(--stroke-width, 1px);
-  transition: var(--stroke-transition) stroke, var(--stroke-transition) fill;
+  transition:
+    var(--stroke-transition) stroke,
+    var(--stroke-transition) fill;
 }
 
 .elementor-widget-text-path svg:hover path {
@@ -4260,7 +4266,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   --fill: var(--text-color);
   fill: var(--fill);
   direction: var(--direction, ltr);
-  transition: var(--transition) stroke, var(--transition) stroke-width,
+  transition:
+    var(--transition) stroke,
+    var(--transition) stroke-width,
     var(--transition) fill;
 }
 
@@ -4268,72 +4276,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   --color: var(--text-color-hover, var(--text-color));
   --fill: var(--color);
   color: var(--color);
-}
-
-.elementor-widget-n-tabs {
-  --n-tabs-color-accent-fallback: #61ce70;
-  --n-tabs-color-secondary-fallback: #54595f;
-  --n-tabs-default-padding-block: 15px;
-  --n-tabs-default-padding-inline: 35px;
-  --n-tabs-background-color: transparent;
-  --n-tabs-display: flex;
-  --n-tabs-direction: column;
-  --n-tabs-gap: 10px;
-  --n-tabs-heading-display: flex;
-  --n-tabs-heading-direction: row;
-  --n-tabs-heading-grow: initial;
-  --n-tabs-heading-justify-content: center;
-  --n-tabs-heading-width: initial;
-  --n-tabs-heading-overflow-x: initial;
-  --n-tabs-heading-wrap: nowrap;
-  --n-tabs-border-width: 1px;
-  --n-tabs-border-color: #d5d8dc;
-  --n-tabs-content-display: flex;
-  --n-tabs-title-color: var(
-    --e-global-color-secondary,
-    var(--n-tabs-color-secondary-fallback)
-  );
-  --n-tabs-title-color-hover: #fff;
-  --n-tabs-title-color-active: #fff;
-  --n-tabs-title-background-color: #f1f2f3;
-  --n-tabs-title-background-color-hover: var(
-    --e-global-color-accent,
-    var(--n-tabs-color-accent-fallback)
-  );
-  --n-tabs-title-background-color-active: var(
-    --e-global-color-accent,
-    var(--n-tabs-color-accent-fallback)
-  );
-  --n-tabs-title-width: initial;
-  --n-tabs-title-height: initial;
-  --n-tabs-title-font-size: 1rem;
-  --n-tabs-title-white-space: initial;
-  --n-tabs-title-justify-content-toggle: initial;
-  --n-tabs-title-align-items-toggle: center;
-  --n-tabs-title-justify-content: center;
-  --n-tabs-title-align-items: center;
-  --n-tabs-title-text-align: center;
-  --n-tabs-title-direction: row;
-  --n-tabs-title-gap: 10px;
-  --n-tabs-title-flex-grow: 0;
-  --n-tabs-title-flex-basis: content;
-  --n-tabs-title-flex-shrink: initial;
-  --n-tabs-title-order: initial;
-  --n-tabs-title-padding-block-start: var(--n-tabs-default-padding-block);
-  --n-tabs-title-padding-inline-end: var(--n-tabs-default-padding-inline);
-  --n-tabs-title-padding-block-end: var(--n-tabs-default-padding-block);
-  --n-tabs-title-padding-inline-start: var(--n-tabs-default-padding-inline);
-  --n-tabs-title-border-radius: initial;
-  --n-tabs-title-transition: 0.3s;
-  --n-tabs-icon-color: var(
-    --e-global-color-secondary,
-    var(--n-tabs-color-secondary-fallback)
-  );
-  --n-tabs-icon-color-hover: var(--n-tabs-title-color-hover);
-  --n-tabs-icon-color-active: #fff;
-  --n-tabs-icon-gap: 5px;
-  width: 100%;
-  max-width: 100%;
 }
 
 .elementor-widget-n-tabs .e-n-tabs {
@@ -4426,8 +4368,10 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   height: var(--n-tabs-title-height);
   width: var(--n-tabs-title-width);
   white-space: var(--n-tabs-title-white-space);
-  transition: background var(--n-tabs-title-transition),
-    color var(--n-tabs-title-transition), border var(--n-tabs-title-transition),
+  transition:
+    background var(--n-tabs-title-transition),
+    color var(--n-tabs-title-transition),
+    border var(--n-tabs-title-transition),
     box-shadow var(--n-tabs-title-transition),
     text-shadow var(--n-tabs-title-transition),
     stroke var(--n-tabs-title-transition),
@@ -4443,7 +4387,8 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-widget-n-tabs .e-n-tab-title span i,
 .elementor-widget-n-tabs .e-n-tab-title span svg {
-  transition: color var(--n-tabs-title-transition),
+  transition:
+    color var(--n-tabs-title-transition),
     fill var(--n-tabs-title-transition);
 }
 

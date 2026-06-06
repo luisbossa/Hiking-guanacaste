@@ -309,34 +309,6 @@ button:-moz-focusring {
     outline: 1px dotted ButtonText
 }
 
-[type=button],
-[type=submit],
-button {
-    display: inline-block;
-    font-weight: 400;
-    color: #c36;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid #c36;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    border-radius: 3px;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s
-}
-
-[type=button]:focus,
-[type=submit]:focus,
-button:focus {
-    outline: 5px auto -webkit-focus-ring-color
-}
-
 [type=button]:focus,
 [type=button]:hover,
 [type=submit]:focus,
