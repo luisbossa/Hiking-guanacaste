@@ -1,0 +1,157 @@
+.calendar-card {
+  background: #fff;
+  padding: 14px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.calendar-month {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.booking-calendar-nav {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #f3f4f6;
+  color: #444;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.booking-calendar-nav:hover {
+  background: #e5e7eb;
+  transform: scale(1.05);
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 6px;
+}
+
+.calendar-weekdays span {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #777;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.booking-calendar-day {
+  height: 34px;
+  border: none;
+  border-radius: 8px;
+  background: #198754;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 1px 6px !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.booking-calendar-day:hover {
+  background: #157347;
+}
+
+.booking-calendar-day.selected {
+  background: #8dc63e;
+}
+
+.booking-calendar-day.disabled {
+  background: #ececec;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.booking-calendar-day.disabled:hover {
+  transform: none;
+}
+
+.selected-date-card span {
+  display: block;
+  font-size: 0.72rem;
+  color: #777;
+}
+
+.selected-date-card strong {
+  display: block;
+  margin-top: 4px;
+
+  font-size: 0.9rem;
+  color: #111;
+}
+
+.calendar-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 0;
+
+  color: #dc3545;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  opacity: 0;
+  transform: translateY(-8px);
+
+  transition: all 0.35s ease;
+
+  pointer-events: none;
+}
+
+.calendar-message.show {
+  margin-top: 12px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .calendar-card {
+    padding: 12px;
+  }
+
+  .calendar-month {
+    font-size: 0.9rem;
+  }
+
+  .booking-calendar-nav {
+    width: 28px;
+    height: 28px;
+  }
+
+  .booking-calendar-day {
+    height: 32px;
+    font-size: 0.75rem;
+  }
+}

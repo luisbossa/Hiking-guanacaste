@@ -81,12 +81,7 @@ pre {
 a {
     background-color: transparent;
     text-decoration: none;
-    color: #c36
-}
-
-a:active,
-a:hover {
-    color: #336
+    color: #fff
 }
 
 a:not([href]):not([tabindex]),

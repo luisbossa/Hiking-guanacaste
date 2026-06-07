@@ -28,9 +28,15 @@
     <link rel='stylesheet' id='hello-elementor-theme-style-css' href='/css/theme.min.css' media='all' />
     <link rel='stylesheet' id='elementor-post-431-css' href='/css/post-431.css' media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href='/css/style.min2.css' media='all' />
+    <link rel="stylesheet" href="/css/tours/modal.css">
+    <link rel="stylesheet" href="/css/tours/calendar.css">
 </head>
 
-<body>
+<body data-tour-name="La Leona Waterfall Hike"
+    data-tour-description="Explore hidden caves, waterfalls, lazy river tubing and volcanic hot springs in a single unforgettable adventure."
+    data-tour-price="188" data-tour-kids-price="185" data-tour-image="/images/laLeona/laLeona-1.jpg"
+    data-tour-duration="5 - 6 Hours" data-tour-ages="Ages 7+" data-tour-location="Guanacaste">
+
     <div data-elementor-type="wp-page" data-elementor-id="1199" class="elementor elementor-1199"
         data-elementor-post-type="page">
         <section class="elementor-element elementor-element-5ac4092 leona-hero e-flex e-con-boxed e-con e-parent"
@@ -51,12 +57,9 @@
                                 River Tubing & Hot Springs</h1>
                         </div>
                     </div>
-                    <div class="sticky-button-container">
-                        <a href="https://fareharbor.com/embeds/book/hotelelbosquecr/items/236487/?full-items=yes&flow=721772"
-                            target="_blank" rel="noopener" class="sticky-button">
-                            BOOK NOW
-                        </a>
-                    </div>
+                    <a href="#info" class="sticky-button">
+                        START BOOKING
+                    </a>
                 </div>
             </div>
 
@@ -67,7 +70,7 @@
 
         <section class="tour-section leona-section">
             <div class="tour-grid">
-                <aside class="quick-details tour-info reveal">
+                <aside id="info" class="quick-details tour-info reveal">
                     <h2>Tour Information</h2>
 
                     <div class="detail-item">
@@ -211,9 +214,14 @@
                         <div class="carousel-dots" aria-label="Image slide controls"></div>
                     </div>
 
-                    <a class="button booking-button"
-                        href="https://fareharbor.com/embeds/book/hotelelbosquecr/items/236487/calendar/?ref=https%3A%2F%2Fmontetours.com&amp;language=en-us&amp;from-ssl=yes&amp;g4=yes&amp;cp=no&amp;csp=no&amp;back=https%3A%2F%2Fmontetours.com%2Fmonteverde-waterfalls-half-day-tour%2F">BOOK
-                        NOW</a>
+                    <a href="#" class="button booking-button openBookingModal" id="calendarBookBtn"
+                        data-tour-title="La Leona Waterfall Hike"
+                        data-tour-description="Explore hidden caves, waterfalls, lazy river tubing and volcanic hot springs in a single unforgettable adventure."
+                        data-tour-duration="5 - 6 Hours" data-tour-ages="Ages 7+" data-tour-location="Guanacaste"
+                        data-tour-price="188" data-tour-child-price="185"
+                        data-tour-image="/images/laLeona/laLeona-1.jpg">
+                        BOOK NOW
+                    </a>
 
                     <div class="price-list">
                         <div>
@@ -230,9 +238,40 @@
                         </div>
                     </div>
 
-                    <iframe class="booking-frame"
-                        src="https://fareharbor.com/embeds/calendar/hotelelbosquecr/items/236487?language=en-us&amp;ref=https%3A%2F%2Felbosquemonteverde.fareharbor.site&amp;fallback=simple&amp;from-ssl=yes&amp;g4=yes&amp;cp=no&amp;csp=no&amp;back=https%3A%2F%2Felbosquemonteverde.fareharbor.site%2Fmonteverde-waterfalls-half-day-tour%2F"
-                        title="FareHarbor"></iframe>
+
+                    <div class="calendar-card">
+
+                        <div class="calendar-header">
+                            <button id="calendarPrev" class="booking-calendar-nav">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+
+                            <div id="monthYear" class="calendar-month"></div>
+
+                            <button id="calendarNext" class="booking-calendar-nav">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="calendar-weekdays">
+                            <span>Sun</span>
+                            <span>Mon</span>
+                            <span>Tue</span>
+                            <span>Wed</span>
+                            <span>Thu</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+                        </div>
+
+                        <div class="calendar-grid" id="calendarGrid"></div>
+
+                    </div>
+
+                    <div class="calendar-message" id="calendarMessage">
+                        <i class="fas fa-calendar-alt"></i>
+                        Please select a date before continuing.
+                    </div>
+
                 </aside>
             </div>
         </section>
@@ -242,11 +281,96 @@
         </footer>
     </div>
 
+    <div class="booking-modal" id="bookingModal">
+        <div class="booking-modal__overlay"></div>
+
+        <div class="booking-modal__content">
+
+            <button class="booking-modal__close" id="closeBookingModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="booking-modal__image">
+                <img id="modalTourImage" src="" alt="Tour">
+            </div>
+
+            <div class="booking-modal__info">
+
+                <span class="booking-tag" id="modalTourTag">
+                    Most Popular Tour
+                </span>
+
+                <h2 id="modalTourTitle"></h2>
+
+                <p id="modalTourDescription"></p>
+
+                <div class="booking-features">
+
+                    <div>
+                        <i class="fas fa-clock"></i>
+                        <span id="modalTourDuration"></span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-users"></i>
+                        <span id="modalTourAges"></span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="modalTourLocation"></span>
+                    </div>
+
+                </div>
+
+                <div class="booking-price">
+                    From
+                    <strong id="modalTourPrice"></strong>
+                    <small>per person</small>
+                </div>
+
+                <div class="booking-booking">
+
+                    <h2>Reserve Your Adventure</h2>
+
+                    <div class="booking-form-group">
+                        <label>Select Date</label>
+                        <input type="text" id="tourDate" readonly placeholder="Selected date">
+                    </div>
+
+                    <div class="booking-form-group">
+                        <label>Adults</label>
+                        <input type="number" id="adults" min="1" value="2">
+                    </div>
+
+                    <div class="booking-form-group">
+                        <label>Children</label>
+                        <input type="number" id="children" min="0" value="0">
+                    </div>
+
+                    <div class="booking-summary">
+                        <span>Total</span>
+                        <strong id="totalPrice">$0</strong>
+                    </div>
+
+                    <button class="booking-reserve-btn" id="continueBooking">
+                        Continue Booking
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <script src="/scripts/jquery.min.js"></script>
     <script src="/scripts/jquery-migrate.min.js"></script>
 
     <script src="/scripts/layout.js"></script>
     <script src="/scripts/tours.js"></script>
+    <script src="/scripts/modal.js"></script>
+    <script src="/scripts/calendar.js"></script>
 </body>
 
 </html>
