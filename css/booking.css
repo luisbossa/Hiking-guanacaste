@@ -170,6 +170,12 @@ h1.entry-title {
   background-size: cover;
 }
 
+.canonVieja-hero{
+  background-image: url("/images/cdlVieja/canonVieja-bg.jpg");
+  background-position: center right;
+  background-size: cover;
+}
+
 .elementor-1199 .elementor-element.elementor-element-ad5548f {
   --display: flex;
   --align-items: flex-start;
