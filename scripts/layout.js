@@ -39,7 +39,7 @@ header.innerHTML = `
                                                 class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                 <li id="menu-item-28"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-28">
-                                                    <a href="/index.html" aria-current="page">Home</a>
+                                                    <a href="/" aria-current="page">Home</a>
                                                 </li>
                                                 <li id="menu-item-813"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813">
@@ -202,31 +202,23 @@ footer.innerHTML = `
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
-
-                                                                <span
-                                                                    class="elementor-icon-list-text">FAQ's</span>
+                                                            <a href="/pages/faq.html">
+                                                                <span class="elementor-icon-list-text">FAQ's</span>
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
-
-                                                                <span class="elementor-icon-list-text">Privacy
-                                                                    Policy</span>
+                                                            <a href="/pages/policy.html">
+                                                                <span class="elementor-icon-list-text">Privacy Policy</span>
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
-
-                                                                <span class="elementor-icon-list-text">Term
-                                                                    &amp; Conditions</span>
+                                                            <a href="/pages/terms.html">
+                                                                <span class="elementor-icon-list-text">Term &amp; Conditions</span>
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
-
-                                                                <span
-                                                                    class="elementor-icon-list-text">Contact</span>
+                                                            <a href="/pages/contact.html">
+                                                                <span class="elementor-icon-list-text">Contact</span>
                                                             </a>
                                                         </li>
                                                     </ul>

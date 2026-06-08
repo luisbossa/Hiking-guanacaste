@@ -22,11 +22,18 @@
   background-position: center center;
   background-size: cover;
   opacity: 0.02;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-433 .elementor-element.elementor-element-2d796e2 {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
   padding: 100px 0px 100px 0px;
 }
 
@@ -222,7 +229,7 @@
   .elementor-element.elementor-element-3711049
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/images/footer-bg.png");
+  background-image: url("/images/backgrounds/footer-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -255,14 +262,21 @@
     rgba(255, 255, 255, 0) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#80000000", endColorstr="#00ffffff", GradientType=0);
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition:
+    background 0.3s,
+    border-radius 0.3s,
+    opacity 0.3s;
 }
 
 .elementor-433 .elementor-element.elementor-element-3711049 {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 80px 0px 20px 0px;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
 }
 
 .elementor-433
@@ -312,8 +326,9 @@
   .elementor-element.elementor-element-ce59c2a
   .elementor-heading-title {
   color: #8dc63e;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -418,7 +433,19 @@ body:not(.rtl)
   .elementor-element.elementor-element-a2cded5
   .elementor-icon-list-text {
   color: #ffffff;
-  transition: color 0.3s;
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.elementor-433
+  .elementor-element.elementor-element-a2cded5
+  .elementor-icon-list-item:hover
+  .elementor-icon-list-text,
+.elementor-433
+  .elementor-element.elementor-element-a2cded5
+  .elementor-icon-list-item:hover
+  > a {
+  color: #8dc63e;
 }
 
 .elementor-433
@@ -448,8 +475,9 @@ body:not(.rtl)
   .elementor-element.elementor-element-26ab6ec
   .elementor-heading-title {
   color: #8dc63e;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -553,8 +581,9 @@ body:not(.rtl)
   .elementor-element.elementor-element-642907c
   .elementor-heading-title {
   color: #8dc63e;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -667,8 +696,9 @@ body:not(.rtl)
   .elementor-element.elementor-element-8838ba7
   .elementor-heading-title {
   color: #8dc63e;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -772,8 +802,9 @@ body:not(.rtl)
   .elementor-element.elementor-element-f2c298b
   .elementor-heading-title {
   color: #8dc63e;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -1127,10 +1158,12 @@ body:not(.rtl)
     padding-bottom: 5px;
   }
 
-.elementor-433 .elementor-element.elementor-element-7bd3447 > .elementor-container {
+  .elementor-433
+    .elementor-element.elementor-element-7bd3447
+    > .elementor-container {
     padding: 10px 30px;
     border-radius: 10px;
-}
+  }
 
   .elementor-433
     .elementor-element.elementor-element-9df3e49
