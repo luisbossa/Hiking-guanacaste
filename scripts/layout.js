@@ -218,7 +218,7 @@ footer.innerHTML = `
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <a href="/pages/contact.html">
-                                                                <span class="elementor-icon-list-text">Contact</span>
+                                                                <span class="elementor-icon-list-text">Contact Us</span>
                                                             </a>
                                                         </li>
                                                     </ul>
