@@ -164,6 +164,12 @@ h1.entry-title {
   background-size: cover;
 }
 
+.miravalles-hero{
+  background-image: url("/images/miravalles/miravalles-bg.png");
+  background-position: center right;
+  background-size: cover;
+}
+
 .elementor-1199 .elementor-element.elementor-element-ad5548f {
   --display: flex;
   --align-items: flex-start;
