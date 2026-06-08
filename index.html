@@ -50,6 +50,7 @@
     <script src="/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js" id="font-awesome-4-shim-js"></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
     <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5" />
+    <link rel="stylesheet" href="/css/tours/modal.css">
 </head>
 
 <body class="jkit-color-scheme elementor-kit-7">
@@ -199,8 +200,15 @@
                                                                 </p>
                                                                 <div class="icon-box-button">
                                                                     <div>
-                                                                        <a class="book-btn"
-                                                                            href="#">
+                                                                        <a href="#" class="book-btn openBookingModal"
+                                                                            data-tour-title="La Leona Waterfall Hike"
+                                                                            data-tour-description="Explore hidden caves, waterfalls, lazy river tubing and volcanic hot springs in a single unforgettable adventure."
+                                                                            data-tour-duration="5 - 6 Hours"
+                                                                            data-tour-ages="Ages 7+"
+                                                                            data-tour-location="Guanacaste"
+                                                                            data-tour-price="154"
+                                                                            data-tour-child-price="150"
+                                                                            data-tour-image="/images/laLeona/laLeona-cover.png">
                                                                             Book Now
                                                                         </a>
                                                                     </div>
@@ -247,8 +255,15 @@
                                                                 </p>
                                                                 <div class="icon-box-button ">
                                                                     <div>
-                                                                        <a class="book-btn"
-                                                                            href="#">
+                                                                        <a href="#" class="book-btn openBookingModal"
+                                                                            data-tour-title="Rincon de la Vieja Volcano Hike"
+                                                                            data-tour-description="Discover the wild side of Costa Rica in Rincón de la Vieja National Park."
+                                                                            data-tour-duration="Full Day"
+                                                                            data-tour-ages="Ages 7+"
+                                                                            data-tour-location="Rincon de la Vieja"
+                                                                            data-tour-price="165"
+                                                                            data-tour-child-price="160"
+                                                                            data-tour-image="/images/rVieja/rinconVieja-cover.jpg">
                                                                             Book Now
                                                                         </a>
                                                                     </div>
@@ -294,8 +309,15 @@
                                                                     terrain...</p>
                                                                 <div class="icon-box-button ">
                                                                     <div>
-                                                                        <a class="book-btn"
-                                                                            href="#">
+                                                                        <a href="#" class="book-btn openBookingModal"
+                                                                            data-tour-title="Miravalles Rain Forest"
+                                                                            data-tour-description="Explore the lush rainforest of Miravalles and discover volcanic landscapes and wildlife."
+                                                                            data-tour-duration="Full Day"
+                                                                            data-tour-ages="Ages 7+"
+                                                                            data-tour-location="Miravalles"
+                                                                            data-tour-price="156"
+                                                                            data-tour-child-price="150"
+                                                                            data-tour-image="/images/miravalles/miravalles-cover.png">
                                                                             Book Now
                                                                         </a>
                                                                     </div>
@@ -347,8 +369,16 @@
                                                                         National Park, where the striking at the...</p>
                                                                     <div class="icon-box-button ">
                                                                         <div>
-                                                                            <a class="book-btn"
-                                                                                href="#">
+                                                                            <a href="#"
+                                                                                class="book-btn openBookingModal"
+                                                                                data-tour-title="Rio Celeste Waterfall Hike"
+                                                                                data-tour-description="Explore the captivating beauty of Río Celeste in Tenorio National Park."
+                                                                                data-tour-duration="Full Day"
+                                                                                data-tour-ages="Ages 7+"
+                                                                                data-tour-location="Tenorio Volcano"
+                                                                                data-tour-price="140"
+                                                                                data-tour-child-price="135"
+                                                                                data-tour-image="/images/rioCeleste/rioCeleste-1.jpg">
                                                                                 Book Now
                                                                             </a>
                                                                         </div>
@@ -396,8 +426,16 @@
                                                                     </p>
                                                                     <div class="icon-box-button ">
                                                                         <div>
-                                                                            <a class="book-btn"
-                                                                                href="#">
+                                                                            <a href="#"
+                                                                                class="book-btn openBookingModal"
+                                                                                data-tour-title="Cañón de la Vieja Tour"
+                                                                                data-tour-description="Enjoy horseback riding, tubing, ziplining and hot springs at Cañón de la Vieja."
+                                                                                data-tour-duration="Full Day"
+                                                                                data-tour-ages="Ages 7+"
+                                                                                data-tour-location="Liberia"
+                                                                                data-tour-price="150"
+                                                                                data-tour-child-price="145"
+                                                                                data-tour-image="/images/cdlVieja/canonVieja-cover.png">
                                                                                 Book Now
                                                                             </a>
                                                                         </div>
@@ -444,8 +482,16 @@
                                                                         Potrero...</p>
                                                                     <div class="icon-box-button ">
                                                                         <div>
-                                                                            <a class="book-btn"
-                                                                                href="#">
+                                                                            <a href="#"
+                                                                                class="book-btn openBookingModal"
+                                                                                data-tour-title="ATV Tours"
+                                                                                data-tour-description="Explore Guanacaste on an exciting ATV adventure."
+                                                                                data-tour-duration="3 Hours"
+                                                                                data-tour-ages="Ages 16+"
+                                                                                data-tour-location="Tamarindo"
+                                                                                data-tour-price="85"
+                                                                                data-tour-child-price="85"
+                                                                                data-tour-image="/images/atv/atv-cover.jpg">
                                                                                 Book Now
                                                                             </a>
                                                                         </div>
@@ -1385,6 +1431,91 @@
         </footer>
     </div>
 
+    <div class="booking-modal" id="bookingModal">
+
+        <div class="booking-modal__overlay"></div>
+
+        <div class="booking-modal__content">
+
+            <button class="booking-modal__close" id="closeBookingModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="booking-modal__image">
+                <img id="modalTourImage" src="" alt="">
+            </div>
+
+            <div class="booking-modal__info">
+
+                <span class="booking-tag">
+                    Available Tour
+                </span>
+
+                <h2 id="modalTourTitle"></h2>
+
+                <p id="modalTourDescription"></p>
+
+                <div class="booking-features">
+
+                    <div>
+                        <i class="fas fa-clock"></i>
+                        <span id="modalTourDuration"></span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-users"></i>
+                        <span id="modalTourAges"></span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="modalTourLocation"></span>
+                    </div>
+
+                </div>
+
+                <div class="booking-price">
+                    From
+                    <strong id="modalTourPrice"></strong>
+                    <small>per person</small>
+                </div>
+
+                <div class="booking-booking">
+
+                    <h2>Reserve Your Adventure</h2>
+
+                    <div class="booking-form-group">
+                        <label>Tour</label>
+                        <input type="text" id="tourNameInput" readonly>
+                    </div>
+
+                    <div class="booking-form-group">
+                        <label>Adults</label>
+                        <input type="number" id="adults" min="1" value="2">
+                    </div>
+
+                    <div class="booking-form-group">
+                        <label>Children</label>
+                        <input type="number" id="children" min="0" value="0">
+                    </div>
+
+                    <div class="booking-summary">
+                        <span>Total</span>
+                        <strong id="totalPrice">$0</strong>
+                    </div>
+
+                    <button class="booking-reserve-btn">
+                        Continue Booking
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
     <link rel='stylesheet' id='sweetalert2-css'
         href='/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css?ver=11.6.16' media='all' />
     <link rel='stylesheet' id='tiny-slider-css'
@@ -1605,6 +1736,7 @@
     <script src="/plugins/jeg-elementor-kit/assets/js/elements/post-pagination.js?ver=2.6.2"
         id="jkit-element-pagination-js"></script>
     <script src="/scripts/layout.js"></script>
+    <script src="/scripts/modal.js"></script>
 </body>
 
 </html>

@@ -177,17 +177,8 @@
 .elementor-kit-7 input[type="button"],
 .elementor-kit-7 input[type="submit"],
 .elementor-kit-7 .elementor-button {
-  font-family: "Inter", Sans-serif;
-  font-size: 20px;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.9px;
-  color: #fff;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #fff;
-  border-radius: 0px 0px 0px 0px;
-  padding: 15px 28px;
 }
 
 .elementor-kit-7 label {
