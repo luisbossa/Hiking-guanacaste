@@ -158,6 +158,12 @@ h1.entry-title {
   background-size: cover;
 }
 
+.rinconVieja-hero {
+  background-image: url("/images/rVieja/rinconVieja-bg.jpg");
+  background-position: center right;
+  background-size: cover;
+}
+
 .elementor-1199 .elementor-element.elementor-element-ad5548f {
   --display: flex;
   --align-items: flex-start;
@@ -2482,37 +2488,11 @@ body:not(.rtl)
 }
 
 /*----------------*/
-/* General Section Container */
-.custom-section {
-  background-color: rgba(0, 0, 0, 0.04);
-  padding: 2em;
-  margin: 3rem 0;
-  max-width: 800px;
-}
-
-/* Section Title */
-.section-title {
-  font-size: 1.6em;
-  color: #1f1f1f;
-  margin-bottom: 0.5em;
-  font-weight: 800;
-}
-
-/* Section Paragraph Text */
-.section-text {
-  color: #505050;
-  font-size: 1em;
-  line-height: 1.7;
-}
 
 /* Green Bullet List (simple) */
 .custom-green-bullets {
   list-style: none;
   padding-top: 1rem;
-}
-
-.custom-green-bullets_2 {
-  list-style: none;
 }
 
 .custom-green-bullets li,
@@ -2532,12 +2512,6 @@ body:not(.rtl)
   color: #8dc63e;
   font-size: 1.3em;
   line-height: 1;
-}
-
-/* Custom List with Headings and Paragraphs */
-.custom-list {
-  list-style: none;
-  padding-left: 0;
 }
 
 .custom-list li {
@@ -2564,17 +2538,6 @@ body:not(.rtl)
   bottom: -5px;
 }
 
-/* Estilo para el contenedor del botón */
-.sticky-button-container {
-  position: fixed;
-  top: 130%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  display: none;
-}
-
-/* Estilo del botón */
 .sticky-button {
   display: inline-block;
   background-color: #8dc63e;
@@ -2588,18 +2551,8 @@ body:not(.rtl)
   transition: background-color 0.3s ease;
 }
 
-@media (max-width: 1024px) {
-  .sticky-button-container {
-    display: flex;
-  }
-
-  .nav-menu {
-    display: none;
-  }
+button[aria-label^="Go to slide"].is-active {
+    background-color: #ffffff !important;
+    border: 1px solid #8dc63e !important;
 }
 
-@media (max-width: 767px) {
-  .sticky-button-container {
-    top: 150%;
-  }
-}

@@ -5088,8 +5088,11 @@
   float: right;
   display: none;
   color: #fff;
-  border: 0;
-  background-color: transparent;
+  padding: 15px 25px;
+  background-color: #8dc63e;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
 }
 
 .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu svg {

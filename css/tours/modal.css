@@ -209,14 +209,14 @@
 /* TOTAL */
 
 .booking-summary {
-  margin-top: 24px;
-  background: white;
-  border: 2px dashed #d8d8d8;
-  border-radius: 18px;
-  padding: 18px 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 18px 22px;
+  margin-top: 24px;
+  background: white;
+  border-radius: 18px;
+  border: 1px solid #d8d8d8;
 }
 
 .booking-summary span {

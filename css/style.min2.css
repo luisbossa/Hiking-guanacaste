@@ -316,19 +316,6 @@ button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
-[type="button"]:focus,
-[type="button"]:hover,
-[type="submit"]:focus,
-[type="submit"]:hover,
-button:focus,
-button:hover {
-  color: #fff;
-  background-color: #8dc63e !important;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  text-decoration: none;
-}
-
 [type="button"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {

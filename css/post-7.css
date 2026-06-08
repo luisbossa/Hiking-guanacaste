@@ -189,18 +189,6 @@
   line-height: 2.6em;
 }
 
-.elementor-kit-7 input:not([type="button"]):not([type="submit"]),
-.elementor-kit-7 textarea,
-.elementor-kit-7 .elementor-field-textual {
-  font-family: "Inter", Sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #1f1f1f;
-  border-style: solid;
-  border-color: #e5e5e5;
-  border-radius: 0px 0px 0px 0px;
-}
-
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: 1140px;
 }
