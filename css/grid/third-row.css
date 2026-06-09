@@ -56,6 +56,7 @@
 }
 
 .tour-card__content p {
+  font-family: "Inter", Sans-serif;
   margin-bottom: 25px;
   line-height: 1.7;
   font-size: 1rem;
@@ -96,8 +97,10 @@
 }
 
 .learn-btn {
+  font-family: "Inter", Sans-serif;
   color: #fff !important;
   text-decoration: none;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.9px;
   transition: color 0.3s ease;
