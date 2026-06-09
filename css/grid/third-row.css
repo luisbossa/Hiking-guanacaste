@@ -1,0 +1,123 @@
+.extra-tours-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.extra-tours-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.extra-tours-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.tour-card {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-card__overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 10%,
+    rgba(0, 0, 0, 0.3) 55%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
+
+.tour-card__content {
+  position: relative;
+  width: 100%;
+  padding: 25px;
+  color: #fff;
+  z-index: 2;
+}
+
+.tour-card__content h2 {
+  color: #fff !important;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1em;
+  margin-bottom: 12px;
+}
+
+.tour-card__content p {
+  margin-bottom: 25px;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.tour-price {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 999px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: rgba(8, 9, 14, 0.5);
+  gap: 7px;
+}
+
+.tour-price__label {
+  background: #95c93d;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.tour-price__value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.tour-card__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learn-btn {
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.learn-btn:hover {
+  color: #95c93d !important;
+}
+
+.learn-btn span {
+  margin-left: 8px;
+}
+
+@media (max-width: 1024px) {
+  .extra-tours-grid {
+    flex-direction: column;
+  }
+
+  .tour-card {
+    height: 450px;
+  }
+}
