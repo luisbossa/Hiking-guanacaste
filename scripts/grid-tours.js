@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Sunset Catamaran Tour",
-      price: 110,
+      price: 210,
       description:
         "Sail the Pacific Ocean and enjoy an unforgettable Costa Rican sunset.",
       image: "/images/catamaran/catamaran-cover.jpg",
