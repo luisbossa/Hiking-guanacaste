@@ -22,19 +22,14 @@
 .booking-calendar-nav {
   width: 30px;
   height: 30px;
-
   border: none;
   border-radius: 8px;
-
   background: #f3f4f6;
   color: #444;
-
   cursor: pointer;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: all 0.25s ease;
 }
 

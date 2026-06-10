@@ -164,25 +164,25 @@ h1.entry-title {
   background-size: cover;
 }
 
-.miravalles-hero{
+.miravalles-hero {
   background-image: url("/images/miravalles/miravalles-bg.png");
   background-position: center right;
   background-size: cover;
 }
 
-.canonVieja-hero{
+.canonVieja-hero {
   background-image: url("/images/cdlVieja/canonVieja-bg.jpg");
   background-position: center right;
   background-size: cover;
 }
 
-.atv-hero{
+.atv-hero {
   background-image: url("/images/atv/atv-bg.jpeg");
   background-position: center right;
   background-size: cover;
 }
 
-.jetski-hero{
+.jetski-hero {
   background-image: url("/images/jetski/jetski-bg.jpg");
   background-position: center right;
   background-size: cover;
@@ -190,6 +190,12 @@ h1.entry-title {
 
 .catalina-hero {
   background-image: url("/images/catalinas/snorkeling-bg.jpg");
+  background-position: center right;
+  background-size: cover;
+}
+
+.catamaran-hero {
+  background-image: url("/images/catamaran/catamaran-bg.png");
   background-position: center right;
   background-size: cover;
 }
@@ -2582,7 +2588,6 @@ body:not(.rtl)
 }
 
 button[aria-label^="Go to slide"].is-active {
-    background-color: #ffffff !important;
-    border: 1px solid #8dc63e !important;
+  background-color: #ffffff !important;
+  border: 1px solid #8dc63e !important;
 }
-

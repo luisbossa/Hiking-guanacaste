@@ -39,6 +39,15 @@ function renderCalendar(month, year) {
 
     btn.textContent = day;
 
+    const currentDate = `${year}-${String(month + 1).padStart(
+      2,
+      "0",
+    )}-${String(day).padStart(2, "0")}`;
+
+    if (selectedDate === currentDate) {
+      btn.classList.add("selected");
+    }
+
     btn.addEventListener("click", () => {
       document
         .querySelectorAll(".booking-calendar-day")
@@ -50,6 +59,8 @@ function renderCalendar(month, year) {
         2,
         "0",
       )}-${String(day).padStart(2, "0")}`;
+
+      calendarMessage.classList.remove("show");
 
       if (selectedDateText) {
         selectedDateText.textContent = selectedDate;
@@ -83,3 +94,23 @@ nextMonthBtn.addEventListener("click", () => {
 });
 
 renderCalendar(currentMonth, currentYear);
+
+bookingBtn.addEventListener("click", (e) => {
+  if (!selectedDate) {
+    e.preventDefault();
+
+    calendarMessage.classList.add("show");
+
+    const y =
+      calendarMessage.getBoundingClientRect().top + window.pageYOffset - 150;
+
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+
+    return;
+  }
+
+  calendarMessage.classList.remove("show");
+});
