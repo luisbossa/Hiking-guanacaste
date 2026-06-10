@@ -34,6 +34,11 @@ body::before {
   background-image: url("/images/backgrounds/contact-bg.avif");
 }
 
+.page-about {
+  background-image: url("/images/backgrounds/about-bg.png");
+}
+
+
 /* CONTAINER */
 
 .policy-container {

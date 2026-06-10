@@ -101,13 +101,22 @@ bookingBtn.addEventListener("click", (e) => {
 
     calendarMessage.classList.add("show");
 
-    const y =
-      calendarMessage.getBoundingClientRect().top + window.pageYOffset - 150;
+    const rect = calendarMessage.getBoundingClientRect();
 
-    window.scrollTo({
-      top: y,
-      behavior: "smooth",
-    });
+    const messageIsVisible =
+      rect.top >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight);
+
+    if (!messageIsVisible) {
+      const y =
+        calendarMessage.getBoundingClientRect().top + window.pageYOffset - 650;
+
+      window.scrollTo({
+        top: y,
+        behavior: "smooth",
+      });
+    }
 
     return;
   }
